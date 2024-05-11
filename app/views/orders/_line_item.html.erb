@@ -1,0 +1,16 @@
+<div class="line-item">
+  <div class = 'order-details'>
+    <%= image_tag line_item.product.image.thumb.url, alt: line_item.product.name, class: "line-item-image", style: 'padding-right: 20px;' %>
+    <div>
+      <div class = 'order-description'>
+        <h4><%= line_item.product.name %></h4>
+        <p><%= line_item.product.description %></p>
+      </div>
+      <div class = 'order-values'>
+        <p>Quantity: <%= line_item.quantity %></p>
+        <p>Unit Price: <%= humanized_money_with_symbol line_item.product.price %></p>
+        <p>Total: <%= humanized_money_with_symbol line_item.total_price %></p>
+      </div>
+    </div>
+  </div>
+</div>

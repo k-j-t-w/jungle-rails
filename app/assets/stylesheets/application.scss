@@ -117,3 +117,23 @@ form.button_to {
   color:rgba(0, 130, 29, 0.7);
   font-weight: 700;
 }
+
+.order-values {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.order-details {
+  display: flex;
+  padding-right: 10px;
+}
+
+.line-item {
+  background-color: #f5f3ef;
+  margin-block: 20px;
+}
+
+.order-description {
+  padding-top: 20px;
+}
