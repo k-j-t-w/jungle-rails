@@ -30,14 +30,4 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  number:
-    currency:
-      format:
-      delimiter: ","
-      separator: "."
-
-# falling back to
-number:
-  format:
-    delimiter: ","
-    separator: "."
+  hello: "Hello world"
