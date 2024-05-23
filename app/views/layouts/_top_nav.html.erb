@@ -70,6 +70,9 @@
         </li>
 
         <% if current_user %>
+        <script type="text/javascript">
+    console.log(<%= raw current_user.to_json %>);
+  </script>
           <li class="nav-item user nav-link">
          
             Welcome <%= current_user.first_name %>!
